@@ -10,7 +10,7 @@ This project demonstrates how to containerize a simple web server using Docker a
 
 - 🐳 DockerHub Image: [`dineshvaishnav/web-server`](https://hub.docker.com/r/dineshvaishnav/web-server)
 - Dockerized lightweight Node.js (or your custom) app.
-
+  Docker-Image.png
 ---
 
 ## 🧱 Project Structure
@@ -43,9 +43,6 @@ docker build -t dineshvaishnav/web-server:latest .
 # Push to DockerHub
 docker push dineshvaishnav/web-server:latest
 
-## 📦 Docker Image
-
-![Docker Build](screenshots/Docker-Image.png)
 
 
 
